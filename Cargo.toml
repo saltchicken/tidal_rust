@@ -1,0 +1,9 @@
+[package]
+name = "tidal_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+midir = "0.9"
+rosc = "0.10"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "macros", "time"] }
